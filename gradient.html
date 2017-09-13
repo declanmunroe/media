@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gradient</title>
+        <style>
+            #container
+            {
+                width:960px;
+                margin:0 auto 0 auto;
+                /*position: relative;*/
+            }
+            #box1
+            {
+                width:30%;
+                display:inline-block;
+                margin-bottom:20px;
+                /*position:absolute;*/
+                /*right:400px;*/
+                background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 52%,#7db9e8 100%);
+                
+            }
+            #box2
+            {
+                width:30%;
+                display:inline-block;
+                margin-left:3%;
+                margin-bottom:20px;
+                /*position:absolute;*/
+                /*right:150px;*/
+                /*top:0px;*/
+                /*transform: translate(200px, 100px);*/
+                background: -webkit-linear-gradient(left, #d5cea6 0%,#c9c190 52%,#b7ad70 100%);
+                
+            }
+            #box3
+            {
+                width:30%;
+                display:inline-block;
+                margin-left:3%;
+                margin-bottom:20px;
+                /*position:absolute;*/
+                /*transform: rotate(45deg);*/
+                background: -webkit-linear-gradient(left, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+            }
+            #box4
+            {
+                width:30%;
+                display:inline-block;
+                /*transform: scale(2, .5);*/
+                /*position:absolute;*/
+                background: -webkit-linear-gradient(45deg, #a90329 0%,#8f0222 31%,#6d0019 100%);
+            }
+            #box5
+            {
+                width:30%;
+                display:inline-block;
+                margin-left:3%;
+                /*transform: skew(5deg, 10deg);*/
+                /*position:absolute;*/
+                background: -webkit-radial-gradient(center, ellipse cover, #fefcea 0%,#f1da36 75%);
+            }
+            #box6
+            {
+                width:30%;
+                display:inline-block;
+                margin-left:3%;
+                /*position:absolute;*/
+                background: -webkit-linear-gradient(top, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+            }
+            #box1:hover
+            {
+                width:45%;
+                padding-top:100px;
+                transition: width 2s, height 2s;
+            }
+            #box4:hover
+            {
+                transition: width 2s, height 2s ;
+                background: -webkit-linear-gradient(#6d0019 100%);
+            }
+            .box
+            {
+                -webkit-box-shadow: 10px 10px 5px #888888;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id = "container">
+            <div id = "box1" class = "box">
+                <h3>Box</h3>
+            </div>
+            <div id = "box2" class = "box">
+                <h3>I am Translated</h3>
+            </div>
+            <div id = "box3" class = "box">
+                <h3>I am Rotated</h3>
+            </div>
+            <div id = "box4" class = "box">
+                <h3>I am Scaled</h3>
+            </div>
+            <div id = "box5" class = "box">
+                <h3>I am Skewed</h3>
+            </div>
+            <div id = "box6" class = "box">
+                <h3>Box6</h3>
+            </div>
+        </div>
+    </body>
+</html>

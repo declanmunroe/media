@@ -1,0 +1,59 @@
+#container
+{
+    width:960px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+#link
+{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: black;
+    border-style: double;
+    border-width: 30px;
+    border-color: yellow;
+    margin-left: 60px;
+}
+
+#nav a
+{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+#cars
+{
+    width: 100%;
+}
+
+#car1
+{
+    width:30%;
+    display:inline-block;
+}
+
+#car2
+{
+    width:30%;
+    display:inline-block;
+    margin-left: 3%;
+}
+
+#car3
+{
+    width:30%;
+    display:inline-block;
+    margin-left: 3%;
+}
+
+#footer
+{
+    width: 100%;
+    background-image: url("images/racegrid.png");
+    background-size: contain;
+}
