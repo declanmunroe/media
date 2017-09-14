@@ -2,39 +2,72 @@
 {
     width:960px;
     margin: 0 auto 0 auto;
+    position: relative;
+    /*padding-bottom: 100px;*/
 }
 
 
 
-#link
+#logo
 {
-    width: 100px;
-    height: 100px;
-    border-radius:50%;
+    width: 30%;
     display: inline-block;
-    background-color: black;
-    border-style: double;
-    border-width: 30px;
-    border-color: yellow;
-    margin-left: 60px;
 }
+
+#header
+{
+    
+}
+
+#title
+{
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
+}
+
+#line
+{
+    width: 100%;
+    border-radius: 15px;
+    border-bottom:20px solid grey;
+    margin-top: 25px;
+}
+
+
 
 #nav a
 {
-    font-size: 32px;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 10px;
+    display: inline;
+    margin-right: 5%;
+    font-size: 26px;
     color: white;
     text-decoration: none;
+}
+
+#nav a:nth-of-type(1)
+{
+    margin-right: 5%;
 }
 
 #cars
 {
     width: 100%;
+    padding-bottom: 30px;
 }
 
 #car1
 {
     width:30%;
     display:inline-block;
+    float: left;
+    
 }
 
 #car2
@@ -42,6 +75,7 @@
     width:30%;
     display:inline-block;
     margin-left: 3%;
+    
 }
 
 #car3
@@ -49,11 +83,64 @@
     width:30%;
     display:inline-block;
     margin-left: 3%;
+    
+}
+
+#car1 img
+{
+    border:2px solid grey;
+}
+
+#car1 img:hover
+{
+    border:2px solid blue;
+}
+
+#car2 img
+{
+    border:2px solid grey;
+}
+
+#car2 img:hover
+{
+    border:2px solid blue;
+}
+
+#car3 img
+{
+    border:2px solid grey;
+}
+
+#car3 img:hover
+{
+    border:2px solid blue;
 }
 
 #footer
 {
+    clear: both;
     width: 100%;
-    background-image: url("images/racegrid.png");
-    background-size: contain;
+    /*margin-top: 4%;*/
+    display: block;
+    border-radius: 15px;
+    height:100px;
+    background-color: grey;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+}
+
+#footer a
+{
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    /*text-align: center;*/
+    margin-left: 40%;
+    padding-top:30px;
+    position: absolute;
+    bottom: 30px;
+    
 }
